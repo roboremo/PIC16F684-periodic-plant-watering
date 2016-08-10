@@ -6,12 +6,12 @@ The settings are stored in the EEPROM memory of the PIC, so they don't get lost 
 
 Commands:
 
-"get\n" - get parameter values (p = period, i = open interval)
-"time\n" - get up time (how many seconds passed since system was powered)
-"set p [n]\n" - set period, in seconds. Example: "set p 300\n" - valve wil open every 5 minutes
-"set i [n]\n" - set the open interval, in seconds. Example: "set i 20\n" - valve will stay open for 20 seconds
-"open\n" - manually open valve (for test)
-"close\n" - manually close valve (for test)
+"get\n" - get parameter values (p = period, i = open interval)  
+"time\n" - get up time (how many seconds passed since system was powered)  
+"set p [n]\n" - set period, in seconds. Example: "set p 300\n" - valve wil open every 5 minutes  
+"set i [n]\n" - set the open interval, in seconds. Example: "set i 20\n" - valve will stay open for 20 seconds  
+"open\n" - manually open valve (for test)  
+"close\n" - manually close valve (for test)  
 
 The push button is used to turn ON the Bluetooth module, which is off by default, to reduce the power consumption. The system turns off the Bluetooth module automatically after 30s if not receiving any command.
 
