@@ -19,5 +19,5 @@ The Bluetooth module used in this project is the BlueSMiRF, configured to 9600 b
 
 The blue LED blinks every 2s to signal that system is running.
 
-Current draw (with Bluetooth OFF and valve OFF) is about 6mA.
+Current draw (with Bluetooth OFF and valve OFF) is about 6mA.  
 That gives a battery life of about 30 days (with 5Ah 12V battery)
