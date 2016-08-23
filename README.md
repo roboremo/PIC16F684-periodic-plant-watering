@@ -4,6 +4,8 @@ The MCU commands a 12V solenoid valve to open with specific period, and close af
 The period and interval can be configured over Bluetooth using Android phone with RoboRemo app.
 The settings are stored in the EEPROM memory of the PIC, so they don't get lost at power OFF.
 
+video: https://www.youtube.com/watch?v=9LrbubgdCc8
+
 Commands:
 
 "get\n" - get parameter values (p = period, i = open interval)  
